@@ -13,23 +13,25 @@
     <main>
         <section id="login">
             <div id="imagem">
-                <img src="imagens/metal.jpg" alt="Imagem prédio">
+                
             </div>
             <div id="formulario">
                 <h1>Login</h1>
                 <p>Seja bem vindo novamente. Faça login para acessar sua conta e poder fazer as configurações no seu ambiente.</p>
                 <form action="login.php" method="post" autocomplete="on">
-                    <div>
-                        <label for="iemail">E-mail</label>
+                    <div class="divlogin">
+                        <i id="personicon" class="material-icons">person</i>
+                        <label for="iemail"></label>
                         <input type="email" name="email" id="iemail" autocomplete="email" required>
                     </div>
 
-                    <div>
-                        <label for="isenha">Senha</label>
+                    <div class="divlogin">
+                        <i id="keyicon" class="material-icons">key</i>
+                        <label for="isenha"></label>
                         <input type="password" name="senha" id="isenha" autocomplete="off" minlength="8" required>
                     </div>
 
-                    <div>
+                    <div class="divlogin">
                         <input type="submit" value="Entrar">
                         <input type="reset" value="Esqueci a senha">
                     </div>
