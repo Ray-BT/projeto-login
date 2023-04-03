@@ -40,9 +40,13 @@ section#login {
     width: 250px;
     height: 500px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.493);
+
+    transition: width .3s, height .3s;
+    transition-timing-function: ease;
 }
 
 div#imagem {
+    display: block;
     background: #5f2c82 url(../imagens/metal.jpg) no-repeat;
     background-size: cover;
     background-position: left bottom;
@@ -50,6 +54,7 @@ div#imagem {
 }
 
 div#formulario {
+    display: block;
     border-radius: 10px;
     padding: 10px;
 }
@@ -66,13 +71,44 @@ div#formulario > p {
     text-align: center;
 }
 
-.divlogin > input {
-    box-shadow: 2px solid #5f2c82;
+.divlogin > #iemail {
+    width: 80%;
+    box-shadow: 2px 2px 2px solid #5f2c82;
+    border-color: #5f2c82;
+   
+}
+
+#isenha {
+    width: 80%;
 }
 
 i#personicon {
     background-color: #5f2c82;
+    border-radius: 3px;
+    
     color: white;
+}
+
+.enviar{
+    height: 50px;
+    width: 100%;
+    display: flex;
+    margin: auto;
+    color: #4BA39D;
+    border-radius: 5px;
+    border-style: none green;
+    border-color: #4BA39D;
+    
+}
+
+#esqueci {
+    
+}
+
+.enviar:hover {
+    background-color: #4BA39D;
+    color: white;
+
 }
 
 img {
