@@ -94,11 +94,11 @@ div.divlogin > input {
     background-color: #65cecc;
     font-size: 1em;
     width: calc(100% - 50px);
-    height: 80%;
+    height: 90%;
     border-radius: 8px;
     border: 1px solid #ffffffea;
     padding-left: 4px;
-    transform: translateY(-6.5px);
+    transform: translateY(-7px);
     transition: .3s;
 }
 
