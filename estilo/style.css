@@ -93,7 +93,7 @@ div.divlogin > i {
 div.divlogin > input {
     background-color: #65cecc;
     font-size: 1em;
-    width: calc(100% - 46px);
+    width: calc(100% - 50px);
     height: 80%;
     border-radius: 8px;
     border: 1px solid #ffffffea;
